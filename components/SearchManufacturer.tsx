@@ -5,7 +5,7 @@ import { Fragment, useState } from "react";
 import { Combobox, Transition } from "@headlessui/react";
 
 import { manufacturers } from "/constants/index.ts";
-import { SearchManuFacturerProps } from "@types";
+import { SearchManuFacturerProps } from "/types/index.ts";
 
 const SearchManufacturer = ({ selected, setselected }: SearchManuFacturerProps) => {
   const [query, setQuery] = useState("");

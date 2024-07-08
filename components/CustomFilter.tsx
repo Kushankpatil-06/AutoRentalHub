@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { Listbox, Transition } from "@headlessui/react";
 
-import { CustomFilterProps } from "@types";
+import { CustomFilterProps } from "/types/index.ts";
 import { updateSearchParams } from "/utils/index.ts";
 
 export default function CustomFilter({ title, options,setFilter }: CustomFilterProps) {

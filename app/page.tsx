@@ -2,13 +2,13 @@
 import { fetchCars } from "/utils/index.ts";
 import { HomeProps } from "/types/index.ts";
 import { fuels, yearsOfProduction } from "/constants/index.ts";
-import { SearchBar } from '/components/index.ts';
 import Hero from '../components/Hero';
 import CustomFilter from '../components/CustomFilter';
 import CarCard from '../components/CarCard';
 import ShowMore from '../components/ShowMore';
 import { useState ,useEffect} from 'react';
 import  Image  from 'next/image';
+import SearchBar from '../components/SearchBar';
 
 
 export default function Home() {

@@ -2,9 +2,9 @@
 
 import { useRouter } from "next/navigation";
 
-import { ShowMoreProps } from "@types";
+import { ShowMoreProps } from "/types/index.ts";
 import { updateSearchParams } from "/utils/index.ts";
-import  CustomButton  from "/components/CustomButton";
+import  CustomButton  from "./CustomButton";
 
 const ShowMore = ({ pageNumber, isNext,setlimit }: ShowMoreProps) => {
 
