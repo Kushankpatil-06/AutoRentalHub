@@ -1,6 +1,6 @@
 "use client"
 import { fetchCars } from "/utils/index.ts";
-import { HomeProps } from "@types";
+import { HomeProps } from "/types/index.ts";
 import { fuels, yearsOfProduction } from "/constants/index.ts";
 import { SearchBar } from '/components/index.ts';
 import Hero from '../components/Hero';
